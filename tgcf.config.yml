@@ -1,20 +1,28 @@
-admins: [Arcade_hi]
-
+admins:
+- Arcade_hi
 forwards:
-  - source: asdacvzcxv
-    dest: [https://t.me/bsdfvsadv]
+- source: asdacvzcxv
+  dest:
+  - https://t.me/bsdfvsadv
+  offset: 9
+  end: 0
 show_forwarded_from: false
+live:
+  delete_sync: false
+  delete_on_edit: null
+past:
+  delay: 0
 plugins:
   replace:
     text:
-      "@TsePress": 🆔@Rahnamayebourse_pluse
-      "@enigma_investing": 🆔@Rahnamayebourse_pluse
-      "@ebarez": 🆔@Rahnamayebourse_pluse
-      "@tsepress": 🆔@Rahnamayebourse_pluse
-      "http://TsePress.com": خبر#
-      "TsePress.com": خبر#
-      "@TSEPRESS": 🆔@Rahnamayebourse_pluse
+      '@TsePress': 🆔@Rahnamayebourse_pluse
+      '@enigma_investing': 🆔@Rahnamayebourse_pluse
+      '@ebarez': 🆔@Rahnamayebourse_pluse
+      '@tsepress': 🆔@Rahnamayebourse_pluse
+      http://TsePress.com: خبر#
+      TsePress.com: خبر#
+      '@TSEPRESS': 🆔@Rahnamayebourse_pluse
   filter:
-
     text:
-      blacklist: ["yun.ir"]
+      blacklist:
+      - yun.ir
