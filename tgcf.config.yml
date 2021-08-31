@@ -4,7 +4,7 @@ forwards:
 - source: asdacvzcxv
   dest:
   - https://t.me/bsdfvsadv
-  offset: 48
+  offset: 54
   end: 0
 show_forwarded_from: false
 live:
